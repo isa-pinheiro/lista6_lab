@@ -24,3 +24,33 @@ int main(void) {
   return 0;
 }
 ```
+
+##Questão 02
+Escreva um programa em C que utilize uma Estrutura estoque que contém uma string com o nomePeca, um número inteiro para identificar o número da peça, o preço em ponto flutuante e um elemento inteiro para identificar o número do pedido.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define carac 20
+struct estoque {
+char nomePeca[carac];
+int  nmrPeca;
+float preco;
+int nmrPedido;
+};
+
+int main(void) {
+  struct estoque e;
+  puts("Insira o nome da peça: ");
+  fgets(e.nomePeca, carac, stdin);
+  puts("Insira o número de indentificação da peça: ");
+  scanf("%d", &e.nmrPeca);
+  puts("Insira o valor do preço da peça: ");
+  scanf("%f", &e.preco);
+  puts("Insira o número de indentificação do pedido: ");
+  scanf("%d", &e.nmrPedido);
+  return 0;
+}
+```
