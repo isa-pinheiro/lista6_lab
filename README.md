@@ -25,7 +25,7 @@ int main(void) {
 }
 ```
 
-##Questão 02
+## Questão 02
 Escreva um programa em C que utilize uma Estrutura estoque que contém uma string com o nomePeca, um número inteiro para identificar o número da peça, o preço em ponto flutuante e um elemento inteiro para identificar o número do pedido.
 
 ```c
@@ -55,7 +55,7 @@ int main(void) {
 }
 ```
 
-##Questão 03
+## Questão 03
 Escreva um programa em C que gere um vetor com números aleatórios e calcule sua média. Organize uma Estrutura com as seguintes informações: ponteiro para a matriz, quantidade de elementos e a média.
 
 ```c
@@ -109,7 +109,7 @@ void imprimirVetor(int *pd, int qtd){
 }
 ```
 
-##Questão 04
+## Questão 04
 
 Escreva um programa em C que modifique a Questão 1 para conter um array com 3 alunos. Escreva uma função para calcular a média dos alunos.
 
@@ -173,7 +173,7 @@ int mediaAlunos (float media1, float media2, float media3) {
 }
 ```
 
-##Questão 05
+## Questão 05
 
 
 Crie uma Estrutura 'disciplina' em que um dos campos corresponde também a uma estrutura 'professor'.
