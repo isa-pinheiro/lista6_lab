@@ -55,7 +55,7 @@ int main(void) {
 }
 ```
 
-## Questão 03
+##Questão 03
 Escreva um programa em C que gere um vetor com números aleatórios e calcule sua média. Organize uma Estrutura com as seguintes informações: ponteiro para a matriz, quantidade de elementos e a média.
 
 ```c
@@ -110,6 +110,7 @@ void imprimirVetor(int *pd, int qtd){
 ```
 
 ##Questão 04
+
 Escreva um programa em C que modifique a Questão 1 para conter um array com 3 alunos. Escreva uma função para calcular a média dos alunos.
 
 ```c
@@ -173,6 +174,8 @@ int mediaAlunos (float media1, float media2, float media3) {
 ```
 
 ##Questão 05
+
+
 Crie uma Estrutura 'disciplina' em que um dos campos corresponde também a uma estrutura 'professor'.
 
 ```c
