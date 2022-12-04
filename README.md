@@ -171,3 +171,25 @@ int mediaAlunos (float media1, float media2, float media3) {
   return media;
 }
 ```
+
+##Questão 05
+Crie uma Estrutura 'disciplina' em que um dos campos corresponde também a uma estrutura 'professor'.
+
+```c
+#include <stdio.h>
+
+ stuct professor {
+  int nomeP;
+};
+
+struct disciplina {
+int nomeD;
+int qtdH;
+struct professor prof;
+};
+
+int main(void) {
+  printf("Hello World\n");
+  return 0;
+}
+```
